@@ -150,7 +150,7 @@ $pseudoSize: size(0.6);
         .icon-selected {
           float: right;
           position: relative;
-          width: $option-height/2;
+          width: $option-height*0.5;
           height: 100%;
 
           &:before {
@@ -257,7 +257,7 @@ $pseudoSize: size(0.6);
     height: $multi-value-height;
     line-height: $multi-value-height;
     padding: 0 size(0.6);
-    margin: ($option-height - $multi-value-height)/2;
+    margin: ($option-height - $multi-value-height)*0.5;
     margin-left: 0;
     border-radius: size(0.2);
     background: $multi-value-color;
@@ -278,7 +278,7 @@ $pseudoSize: size(0.6);
       float: right;
       margin: 0 0 0 size(1);
       position: relative;
-      width: $multi-value-height / 2;
+      width: $multi-value-height * 0.5;
       height: 100%;
 
       &:hover {
